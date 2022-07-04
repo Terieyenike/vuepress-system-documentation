@@ -1,0 +1,19 @@
+{
+  "name": "system-documentation",
+  "version": "0.0.1",
+  "description": "build a system documentation from a github repo on technical writing",
+  "main": "index.js",
+  "authors": {
+    "name": "teri eyenike",
+    "email": ""
+  },
+  "repository": "https://github.com/Terieyenike/vuepress-system-documentation/system-documentation",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}
