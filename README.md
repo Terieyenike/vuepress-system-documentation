@@ -1,9 +1,11 @@
 # Documentation system for technical writers
 
+![system documentation homepage](./documentation.png)
 
 ### Technologies
-- Vue
+
 - VuePress
 
 ### Author
+
 Teri Eyenike

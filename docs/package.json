@@ -7,7 +7,7 @@
     "name": "teri eyenike",
     "email": ""
   },
-  "repository": "https://github.com/Terieyenike/vuepress-system-documentation/system-documentation",
+  "repository": "https://github.com/Terieyenike/vuepress-system-documentation/",
   "scripts": {
     "dev": "vuepress dev src",
     "build": "vuepress build src"

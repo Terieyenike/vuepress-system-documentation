@@ -1,10 +1,10 @@
-const { description } = require('../../package')
+const { description } = require('../../package');
 
 module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: 'Vuepress Docs Boilerplate',
+  title: 'Technical writing resources',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
@@ -18,7 +18,10 @@ module.exports = {
   head: [
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
-    ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }]
+    [
+      'meta',
+      { name: 'apple-mobile-web-app-status-bar-style', content: 'black' },
+    ],
   ],
 
   /**
@@ -32,19 +35,16 @@ module.exports = {
     docsDir: '',
     editLinkText: '',
     lastUpdated: false,
+    searchPlaceholder: 'Search...',
     nav: [
       {
         text: 'Guide',
         link: '/guide/',
       },
       {
-        text: 'Config',
-        link: '/config/'
+        text: 'GitHub',
+        link: 'https://github.com/dharmelolar/technical-writing-resources/',
       },
-      {
-        text: 'VuePress',
-        link: 'https://v1.vuepress.vuejs.org'
-      }
     ],
     sidebar: {
       '/guide/': [
@@ -53,18 +53,27 @@ module.exports = {
           collapsable: false,
           children: [
             '',
-            'using-vue',
-          ]
-        }
+            'articles',
+            'books',
+            'courses',
+            'youtube',
+            'communities',
+            'tools',
+            'who-pay',
+            'open-source',
+            'open-projects.md',
+            'blogs',
+            'interviews',
+            'publication',
+            'job-boards',
+          ],
+        },
       ],
-    }
+    },
   },
 
   /**
    * Apply plugins，ref：https://v1.vuepress.vuejs.org/zh/plugin/
    */
-  plugins: [
-    '@vuepress/plugin-back-to-top',
-    '@vuepress/plugin-medium-zoom',
-  ]
-}
+  plugins: ['@vuepress/plugin-back-to-top', '@vuepress/plugin-medium-zoom'],
+};

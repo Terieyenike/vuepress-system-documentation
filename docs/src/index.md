@@ -1,15 +1,11 @@
 ---
 home: true
-heroImage: https://v1.vuepress.vuejs.org/hero.png
-tagline: build a system documentation from a github repo on technical writing
-actionText: Quick Start →
+heroImage: img/technical_writing_logo.png
+tagline: Technical writing is a form of communication that helps users solve problems with technology. As a technical writer, sharing your knowledge and experience with people helps you affirm that you have a solid understanding of the technology you're writing about.
+actionText: Get Started →
 actionLink: /guide/
-features:
-- title: Feature 1 Title
-  details: Feature 1 Description
-- title: Feature 2 Title
-  details: Feature 2 Description
-- title: Feature 3 Title
-  details: Feature 3 Description
-footer: Made by teri eyenike with ❤️
 ---
+
+::: slot footer
+MIT Licensed | Copyright © 2022 [Teri Eyenike](https://twitter.com/terieyenike)
+:::
